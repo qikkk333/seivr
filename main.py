@@ -5,7 +5,7 @@ from pipeline.video_reader import VideoReader
 from pipeline.inference_pipeline import InferencePipeline
 
 
-video_path = r"C:\Users\abhij\Downloads\Telegram Desktop\video_2026-03-21_10-05-06.mp4"
+video_path = r"C:\Users\qik36\OneDrive\Desktop\raw_videos\test3.mp4"
 
 reader = VideoReader(video_path)
 pipeline = InferencePipeline()
